@@ -14,18 +14,48 @@
 </head>
 
 <body>
-    <header>
+    <!-- <header>
         <nav>
             <ul>
-                <li><a href="#summary">About</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+
             </ul>
         </nav>
-    </header>
+    </header> -->
+
+    <nav>
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <ul id="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#recommendations">Recommendations</a></li>
+        </ul>
+    </nav>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const navList = document.getElementById('nav-list');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            navList.classList.toggle('show');
+        });
+    </script>
 
     <section class="hero-section">
         <div class="hero-bg">
@@ -90,7 +120,7 @@
 
     <div class="scroll-indicator"></div>
 
-    <section class="about-section">
+    <section class="about-section" id="about">
         <div class="about-container">
             <h2>About Me</h2>
             <p>
@@ -109,7 +139,7 @@
         </div>
     </section>
 
-    <section class="experience-section">
+    <section class="experience-section" id="experience">
         <div class="experience-container">
             <h2>Professional Experience</h2>
 
@@ -166,7 +196,7 @@
         </div>
     </section>
 
-    <section class="skills-section">
+    <section class="skills-section" id="skills">
         <h2>Technical Skills</h2>
         <div class="skills-grid">
             <div class="skill-category">
@@ -234,7 +264,7 @@
         </div>
     </section>
 
-    <section class="projects-section">
+    <section class="projects-section" id="projects">
         <div class="projects-container">
             <h2>Featured Projects</h2>
 
@@ -306,7 +336,7 @@
         </div>
     </section>
 
-    <section class="education-section">
+    <section class="education-section" id="education">
         <h2 class="education-section-heading">Education & Certifications</h2>
         <div class="education-container">
             <h3 class="education-section-sub-heading">Education</h3>
@@ -352,7 +382,7 @@
         </div>
     </section>
 
-    <section class="achievements-section">
+    <section class="achievements-section" id="achievements">
         <div class="achievements-container">
             <h2>Achievements & Awards</h2>
             <ul class="achievements-list">
@@ -367,7 +397,7 @@
         </div>
     </section>
 
-    <section class="recommendations-section">
+    <section class="recommendations-section" id="recommendations">
         <div class="recommendations-container">
             <h2>LinkedIn Recommendations</h2>
             <div class="recommendations-grid">
@@ -480,7 +510,8 @@
             </div>
 
             <div class="view-more-container">
-                <a href="https://www.linkedin.com/in/faizaanwani/details/recommendations/" target="_blank" class="btn btn-primary">
+                <a href="https://www.linkedin.com/in/faizaanwani/details/recommendations/" target="_blank"
+                    class="btn btn-primary">
                     View All Recommendations on LinkedIn
                 </a>
             </div>
