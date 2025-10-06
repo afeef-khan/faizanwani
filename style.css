@@ -699,17 +699,17 @@ nav ul li a:hover {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    padding: 8px 16px;
+    padding: 6px 12px;
     background: var(--secondary-color);
     color: white;
     border-radius: 20px;
     font-size: 0.9em;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .linkedin-badge svg {
-    width: 16px;
-    height: 16px;
+    width: 14px;
+    height: 14px;
 }
 
 .view-more-container {
