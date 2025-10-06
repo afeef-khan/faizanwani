@@ -752,6 +752,7 @@ footer p {
     .hero-section {
         height: auto;
         position: relative;
+        padding: 60px 48px;
     }
 
     .hero-content {
@@ -776,9 +777,6 @@ footer p {
 }
 
 @media (max-width: 768px) {
-    nav ul li a {
-        font-size: 12px;
-    }
 
     .stats-container {
         flex-direction: column;
