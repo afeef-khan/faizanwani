@@ -654,35 +654,35 @@ nav ul li a:hover {
 }
 
 .recommender-avatar {
-    width: 60px;
-    height: 60px;
+    width: 52px;
+    height: 52px;
     border-radius: 50%;
     background: var(--secondary-color);
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.3em;
+    font-size: 1em;
     font-weight: 600;
     flex-shrink: 0;
 }
 
 .recommender-info h3 {
     color: var(--primary-color);
-    font-size: 1.2em;
+    font-size: 1em;
     margin-bottom: 5px;
 }
 
 .recommender-title {
     color: var(--secondary-color);
-    font-size: 0.95em;
+    font-size: 0.9em;
     margin-bottom: 5px;
 }
 
 .recommendation-date {
     color: var(--secondary-color);
     opacity: 0.7;
-    font-size: 0.85em;
+    font-size: 0.8em;
 }
 
 .recommendation-text {
@@ -692,7 +692,7 @@ nav ul li a:hover {
 }
 
 .recommendation-text p {
-    font-size: 1em;
+    font-size: 0.88em;
 }
 
 .linkedin-badge {
