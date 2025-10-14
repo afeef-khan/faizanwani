@@ -4,6 +4,7 @@
     max-width: 1400px;
     font-family: 'Inter', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
+    cursor: default;
 }
 
 :root {
